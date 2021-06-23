@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Playfair Display', serif;
     margin:0;
@@ -51,3 +55,25 @@ a{
    margin: 0%;
    font-size: 70px
    }
+
+   aside{
+       display: flex;
+       justify-content: space-around;
+       padding: 50% 0;
+   }
+
+   div{
+    border: #afff 2px solid;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(27, 255, 38);
+   }
+
+   footer{
+   background-color: blueviolet;
+   color: #afff;
+   padding: 30px;
+   }
+
+

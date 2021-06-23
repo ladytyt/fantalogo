@@ -59,7 +59,7 @@ a{
    aside{
        display: flex;
        justify-content: space-around;
-       padding: 50% 0;
+       padding: 50px 0;
    }
 
    div{
@@ -77,3 +77,26 @@ a{
    }
 
 
+   @media(max-width: 500px){
+   header{
+       display:block
+   }
+
+   header a{
+       display: inline-block;
+   }
+
+   .descr{
+     font-size: 20px;
+   }
+   aside{
+       display: block;
+   }
+   div{
+   width: 90%;
+   margin: 10px auto;
+   }
+   img{
+    max-width: 100px;
+   }
+}
